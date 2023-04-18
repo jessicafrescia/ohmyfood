@@ -95,44 +95,31 @@
     bottom: 32px;
   }
 
-  // .btn-hover {
-  //   width: 200px;
-  //   font-size: 16px;
-  //   font-weight: 600;
-  //   color: #fff;
-  //   cursor: pointer;
-  //   margin: 20px;
-  //   height: 55px;
-  //   text-align:center;
-  //   border: none;
-  //   background-size: 300% 100%;
+  .btn-hover {
+    width: 300px;
+    font-size: 21px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 75px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
 
-  //   border-radius: 50px;
-  //   moz-transition: all .4s ease-in-out;
-  //   -o-transition: all .4s ease-in-out;
-  //   -webkit-transition: all .4s ease-in-out;
-  //   transition: all .4s ease-in-out;
-  // }
-
-  // .btn-hover:hover {
-  //   background-position: 100% 0;
-  //   moz-transition: all .4s ease-in-out;
-  //   -o-transition: all .4s ease-in-out;
-  //   -webkit-transition: all .4s ease-in-out;
-  //   transition: all .4s ease-in-out;
-  // }
-
-  // .btn-hover:focus {
-  //   outline: none;
-  // }
+  
 
   .btn-hover.color-7 {
-    background-image: linear-gradient(to right, #FF79DA, #9356DC);
-    box-shadow: 0 4px 15px 0 rgba(#656161);
+    background-image: linear-gradient(to bottom, #FF79DA, #9356DC);
+    // box-shadow: 0 4px 15px 0 #656161;
   }
     
-  
-  
+
   /* fliter section */
   
     p {
@@ -353,9 +340,9 @@
     }
   
 
-    .footer ul {
+    // .footer ul {
 
-    }
+    // }
   
   .footer ul li {
     list-style: none;
