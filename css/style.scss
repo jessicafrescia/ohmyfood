@@ -43,9 +43,9 @@
   }
 
   #iconsearch { 
-    display: inline;
-    margin: -4px;
-    padding: 15px 20px;
+    position: relative;
+    top: 3px;
+    left: -3px;
   }
 
   form {
@@ -176,6 +176,10 @@
     background-color: #dcceed;
   }
 
+  // .fa-solid:hover {
+  //   background-color: #9356DC;
+  // }
+
   
   .filterbuttonslist {
     width: 98%;
@@ -220,7 +224,23 @@
     margin-top: 46px;
   }
 
-  .fa-solid {
+  .fa-mobile-screen{
+    font-weight: 900;
+    font-size: 30px;
+    position: relative;
+    left: 45px;
+    top: 23px;
+  }
+
+  .fa-list{
+    font-weight: 900;
+    font-size: 30px;
+    position: relative;
+    left: 45px;
+    top: 23px;
+  }
+
+  .fa-store{
     font-weight: 900;
     font-size: 30px;
     position: relative;
@@ -257,6 +277,36 @@
     position: relative;
     top: 56px;
     right: 10px;
+  }
+
+  .aquasquare1 {
+    border-radius: 5%;
+    width: 74px;
+    height: 14px;
+    padding: 9px 13px 15px 14px;
+    background: #99E2D0;
+    border: none;
+    color: #288d74;
+    text-align: center;
+    font: 20px Arial, sans-serif;
+    position: relative;
+    bottom: 246px;
+    left: 263px;
+  }
+
+  .aquasquare2 {
+    border-radius: 5%;
+    width: 74px;
+    height: 14px;
+    padding: 9px 13px 15px 14px;
+    background: #99E2D0;
+    border: none;
+    color: #288d74;
+    text-align: center;
+    font: 20px Arial, sans-serif;
+    position: relative;
+    bottom: 246px;
+    left: 263px;
   }
 
   
@@ -333,6 +383,8 @@
       color: #000000;
       margin: 15px;
       line-height: 0em;
+      margin-left: 21px;
+      margin-top: -10px;
     }
   
   
