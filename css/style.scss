@@ -363,13 +363,13 @@
       width: 88%;
     }
   
-    .flex-container-most .star {
+    .restaurant .star {
       display: flex;
       justify-content: right;
       margin-top: -37px;
     }
   
-    .flex-item-most-card {
+    .restaurant-card {
       width: 100%;
       height: 340px;
       float: left;
@@ -379,21 +379,20 @@
       background: white;
     }
   
-    .flex-item-most-info {
+    .restaurant-info {
       color: #000000;
-      margin: 15px;
+      
       line-height: 0em;
-      margin-left: 21px;
-      margin-top: -10px;
+      
     }
   
   
-    .flex-item-most-info p {
+    .restaurant-info p {
       line-height: 4rem;
-      font-size: 14px;
+      font-size: 22px;
     }
   
-    .flex-item-most-card img {
+    .restaurant-card img {
         width: 100%;
         max-width: 400px;
         height: 251px;
