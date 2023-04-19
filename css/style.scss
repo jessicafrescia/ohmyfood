@@ -351,6 +351,7 @@
       margin-top: 73px;
       float: none;
       margin-left: 0px;
+      padding-bottom: 30px;
     }
 
     .restaurant-container {
@@ -437,8 +438,14 @@
     
    /* footer section */
 
+   footer {
+    
+    height: 63px;
+   }
+
    .footer {
     width: 103%;
+    height: 61px;
    }
   
     .footer-container {
@@ -446,7 +453,7 @@
       background: #454141;
       display: flex;
       position: relative;
-      top: 50px;
+      
     }
 
     .footer-container img {

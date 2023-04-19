@@ -278,6 +278,7 @@
     margin-top: 73px;
     float: none;
     margin-left: 0px;
+    padding-bottom: 30px;
   }
   .restaurant-container {
     margin: 45px 21px;
@@ -349,15 +350,18 @@
     background-image: linear-gradient(to bottom, #FF79DA, #9356DC);
   }
   /* footer section */
+  footer {
+    height: 63px;
+  }
   .footer {
     width: 103%;
+    height: 61px;
   }
   .footer-container {
     flex-direction: column;
     background: #454141;
     display: flex;
     position: relative;
-    top: 50px;
   }
   .footer-container img {
     width: 40%;
