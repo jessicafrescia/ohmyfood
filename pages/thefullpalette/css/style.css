@@ -61,7 +61,6 @@
     z-index: -1;
   }
   .restaurant-container {
-    margin: 45px 21px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
