@@ -134,6 +134,13 @@
     left: 11px;
     top: 30px;
   }
+  .cents {
+    position: relative;
+    font-size: 22px;
+    left: 330px;
+    bottom: 2px;
+    color: #000000;
+  }
   .restaurant-info p {
     line-height: 4rem;
     font-size: 22px;
@@ -141,21 +148,6 @@
     top: 30px;
     left: 14px;
     color: #807979;
-  }
-  .restaurant-info34 {
-    color: #000000;
-    line-height: 0em;
-    position: relative;
-    left: 10px;
-    top: 23px;
-  }
-  .restaurant-info34 h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-  }
-  .restaurant-info34 p {
-    line-height: 4rem;
-    font-size: 22px;
   }
   .restaurant-card img {
     width: 100%;
