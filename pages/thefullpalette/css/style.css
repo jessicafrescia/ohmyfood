@@ -168,8 +168,8 @@
   .fa-heart {
     font-size: 30px;
     position: relative;
-    left: 317px;
-    top: -61px;
+    left: 347px;
+    bottom: 80px;
   }
   .fa-heart:hover {
     background-image: linear-gradient(to bottom, #FF79DA, #9356DC);
