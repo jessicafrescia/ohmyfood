@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 /*--------------------------------------MOBILE VERSION-------------------------------------*/
 @media all and (max-width: 767px) {
   main, header {
@@ -20,9 +21,20 @@
   .nav-section {
     width: 100%;
   }
+  .fa-arrow-left {
+    font-weight: 900;
+    font-size: 30px;
+    position: relative;
+    /* left: -317px; */
+    color: black;
+    right: 322px;
+    top: 10px;
+  }
   /* top image section */
   .topimagecontainer {
     width: 100%;
+    z-index: 1;
+    position: relative;
   }
   .topimagecontainer img {
     width: 100%;
@@ -58,7 +70,9 @@
     background: #F2F2F2;
     margin-left: 0px;
     border-radius: 70px 70px 0px 0px;
-    z-index: -1;
+    z-index: 2;
+    position: relative;
+    bottom: 60px;
   }
   .restaurant-container {
     display: flex;
@@ -66,6 +80,10 @@
     flex-direction: column;
     row-gap: 39px;
     width: 88%;
+  }
+  .restaurant-container h3 {
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 24px;
   }
   .restaurant .star {
     display: flex;
@@ -87,10 +105,6 @@
     position: relative;
     bottom: 19px;
     left: 10px;
-  }
-  .restaurant-info h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
   }
   .restaurant-info p {
     line-height: 4rem;
