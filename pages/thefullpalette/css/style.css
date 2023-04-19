@@ -212,20 +212,26 @@
     top: 42px;
   }
   /* footer section */
+  footer {
+    height: 63px;
+  }
   .footer {
     width: 103%;
+    height: 61px;
   }
   .footer-container {
     flex-direction: column;
     background: #454141;
     display: flex;
     position: relative;
-    top: 50px;
+    bottom: 109px;
+    height: 240px;
   }
   .footer-container img {
     width: 40%;
     margin-top: 30px;
     margin-left: 25px;
+    padding-bottom: 20px;
   }
   .footer-col {
     margin-left: 25px;
