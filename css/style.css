@@ -9,6 +9,15 @@ main, header {
   font-family: "Arial", sans-serif;
 }
 
+.desktop-only {
+  display: none;
+}
+@media only screen and (minm-width: 750px) {
+  .desktop-only {
+    display: block;
+  }
+}
+
 /* ------------header navigation----------------- */
 #logo {
   padding: 30px;
@@ -115,14 +124,6 @@ p {
   font-family: "Raleway", sans-serif;
 }
 
-.filters {
-  align-items: flex-start !important;
-  margin: 5px 25px;
-  display: flex;
-  flex-direction: column;
-  gap: 1vw;
-}
-
 .filtericons {
   color: #0065FC;
   background: #d6e6ff;
@@ -139,10 +140,8 @@ p {
 }
 
 .container {
-  width: 40%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .filterbuttonsphone {
@@ -183,6 +182,8 @@ p {
 
 .filters h1 {
   font-size: 25px;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 .filters p {
@@ -248,8 +249,8 @@ p {
   text-align: center;
   font: 20px Arial, sans-serif;
   position: relative;
-  top: 56px;
-  right: 10px;
+  top: 19px;
+  left: 19px;
 }
 
 .aquasquare1 {
@@ -312,7 +313,7 @@ p {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 103%;
+  width: 100%;
   background: #F2F2F2;
   border-radius: 0px;
   margin-top: 73px;
@@ -322,12 +323,15 @@ p {
 }
 
 .restaurant-container {
-  margin: 45px 21px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  row-gap: 39px;
   width: 88%;
+  margin-top: 45px;
+  margin-left: 211px;
+}
+
+.restaurant-container h1 {
+  text-align: center;
+  padding-bottom: 30px;
+  width: 80%;
 }
 
 .restaurant .star {
@@ -337,13 +341,14 @@ p {
 }
 
 .restaurant-card {
-  width: 100%;
+  width: 34%;
   height: 340px;
-  float: left;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 30px;
   background: white;
+  display: inline-block;
+  margin-left: 50px;
 }
 
 .restaurant-info {
@@ -871,21 +876,42 @@ a:hover {
     padding: 0;
     font-family: "Arial", sans-serif;
   }
+  .mobile-only {
+    display: none;
+  }
   /* ------------header navigation----------------- */
+  /* search section */
+  /* text box section */
+  /* fliter section */
+  /* info section */
+  /* restaurant section */
+  /* footer section */
+}
+@media only screen and (max-width: 767px) and (max-width: 750px) {
+  .mobile-only {
+    display: block;
+  }
+}
+@media all and (max-width: 767px) {
   #logo {
     padding: 30px;
     display: flex;
     justify-content: center;
     box-shadow: 0 8px 6px -6px gray;
   }
+}
+@media all and (max-width: 767px) {
   #logo img {
     width: 70%;
   }
+}
+@media all and (max-width: 767px) {
   .nav-section {
     width: 100%;
     padding-bottom: 30px;
   }
-  /* search section */
+}
+@media all and (max-width: 767px) {
   .search-section {
     justify-content: center;
     display: flex;
@@ -896,25 +922,34 @@ a:hover {
     top: -30px;
     opacity: 50%;
   }
+}
+@media all and (max-width: 767px) {
   #iconsearch {
     position: relative;
     top: 3px;
     left: -3px;
   }
+}
+@media all and (max-width: 767px) {
   form {
     top: 26px;
     position: relative;
   }
+}
+@media all and (max-width: 767px) {
   input {
     font-size: 20px;
     font-family: "Arial Bold", sans-serif;
     box-sizing: border-box;
     transition: 0.5s;
   }
+}
+@media all and (max-width: 767px) {
   input[type=text] {
     border: none;
   }
-  /* text box section */
+}
+@media all and (max-width: 767px) {
   .text-box {
     width: 100%;
     padding-bottom: 50px;
@@ -922,23 +957,31 @@ a:hover {
     position: relative;
     top: -30px;
   }
+}
+@media all and (max-width: 767px) {
   .text-box h1 {
     font-size: 30px;
     text-align: center;
     line-height: 4em;
   }
+}
+@media all and (max-width: 767px) {
   .text-box p {
     font-size: 21px;
     color: #656161;
     line-height: 1.3em;
     text-align: center;
   }
+}
+@media all and (max-width: 767px) {
   .purplebutton {
     margin: 0%;
     text-align: center;
     position: relative;
     bottom: 32px;
   }
+}
+@media all and (max-width: 767px) {
   .btn-hover {
     width: 300px;
     font-size: 21px;
@@ -953,15 +996,20 @@ a:hover {
     border-radius: 50px;
     transition: all 0.4s ease-in-out;
   }
+}
+@media all and (max-width: 767px) {
   .btn-hover.color-7 {
     background-image: linear-gradient(to bottom, #FF79DA, #9356DC);
     position: relative;
     top: 42px;
   }
-  /* fliter section */
+}
+@media all and (max-width: 767px) {
   p {
     font-family: "Raleway", sans-serif;
   }
+}
+@media all and (max-width: 767px) {
   .filters {
     align-items: flex-start !important;
     margin: 5px 25px;
@@ -969,6 +1017,8 @@ a:hover {
     flex-direction: column;
     gap: 1vw;
   }
+}
+@media all and (max-width: 767px) {
   .filtericons {
     color: #0065FC;
     background: #d6e6ff;
@@ -977,17 +1027,23 @@ a:hover {
     width: 8%;
     margin: 0px 0px;
   }
+}
+@media all and (max-width: 767px) {
   .filters .iconwords {
     position: relative;
     bottom: 32px;
     left: 24px;
   }
+}
+@media all and (max-width: 767px) {
   .container {
     width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
   }
+}
+@media all and (max-width: 767px) {
   .filterbuttonsphone {
     width: 98%;
     height: 80px;
@@ -995,9 +1051,13 @@ a:hover {
     border-radius: 25px;
     box-shadow: 0 8px 6px -6px gray;
   }
+}
+@media all and (max-width: 767px) {
   .filterbuttonsphone:hover {
     background-color: #dcceed;
   }
+}
+@media all and (max-width: 767px) {
   .filterbuttonslist {
     width: 98%;
     height: 80px;
@@ -1005,9 +1065,13 @@ a:hover {
     border-radius: 25px;
     box-shadow: 0 8px 6px -6px gray;
   }
+}
+@media all and (max-width: 767px) {
   .filterbuttonslist:hover {
     background-color: #dcceed;
   }
+}
+@media all and (max-width: 767px) {
   .filterbuttonsstore {
     width: 98%;
     height: 80px;
@@ -1015,23 +1079,34 @@ a:hover {
     border-radius: 25px;
     box-shadow: 0 8px 6px -6px gray;
   }
+}
+@media all and (max-width: 767px) {
   .filterbuttonsstore:hover {
     background-color: #dcceed;
   }
+}
+@media all and (max-width: 767px) {
   .filters h1 {
     font-size: 25px;
+    padding-bottom: 1px;
   }
+}
+@media all and (max-width: 767px) {
   .filters p {
     font-size: 18px;
     text-align: center;
     margin-top: 34px;
   }
+}
+@media all and (max-width: 767px) {
   .filtercopyphone {
     top: -36px;
     position: relative;
     left: 5px;
     margin-top: 46px;
   }
+}
+@media all and (max-width: 767px) {
   .fa-mobile-screen {
     font-weight: 900;
     font-size: 30px;
@@ -1039,6 +1114,8 @@ a:hover {
     left: 45px;
     top: 23px;
   }
+}
+@media all and (max-width: 767px) {
   .fa-list {
     font-weight: 900;
     font-size: 30px;
@@ -1046,6 +1123,8 @@ a:hover {
     left: 45px;
     top: 23px;
   }
+}
+@media all and (max-width: 767px) {
   .fa-store {
     font-weight: 900;
     font-size: 30px;
@@ -1053,12 +1132,16 @@ a:hover {
     left: 45px;
     top: 23px;
   }
+}
+@media all and (max-width: 767px) {
   .filtercopylist {
     top: -36px;
     position: relative;
     left: 5px;
     margin-top: 46px;
   }
+}
+@media all and (max-width: 767px) {
   .filtercopystore {
     top: -36px;
     position: relative;
@@ -1066,6 +1149,8 @@ a:hover {
     margin-top: 46px;
     margin-left: 60px;
   }
+}
+@media all and (max-width: 767px) {
   .circle {
     border-radius: 50%;
     width: 14px;
@@ -1078,8 +1163,10 @@ a:hover {
     font: 20px Arial, sans-serif;
     position: relative;
     top: 56px;
-    right: 10px;
+    left: -14px;
   }
+}
+@media all and (max-width: 767px) {
   .aquasquare1 {
     border-radius: 5%;
     width: 74px;
@@ -1094,6 +1181,8 @@ a:hover {
     bottom: 246px;
     left: 263px;
   }
+}
+@media all and (max-width: 767px) {
   .aquasquare2 {
     border-radius: 5%;
     width: 74px;
@@ -1108,13 +1197,16 @@ a:hover {
     bottom: 246px;
     left: 263px;
   }
-  /* info section */
+}
+@media all and (max-width: 767px) {
   .info {
     width: 84%;
     margin-top: 25px;
     margin-left: 25px;
     margin-right: 0px;
   }
+}
+@media all and (max-width: 767px) {
   .infoicon {
     border: 0.5px solid #625b5b;
     border-radius: 15px;
@@ -1125,17 +1217,20 @@ a:hover {
     position: relative;
     top: 0px;
   }
+}
+@media all and (max-width: 767px) {
   .infocopy {
     position: relative;
     top: -23px;
     left: 34px;
   }
-  /* restaurant section */
+}
+@media all and (max-width: 767px) {
   .restaurant {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 103%;
+    width: 100%;
     background: #F2F2F2;
     border-radius: 0px;
     margin-top: 73px;
@@ -1143,6 +1238,8 @@ a:hover {
     margin-left: 0px;
     padding-bottom: 30px;
   }
+}
+@media all and (max-width: 767px) {
   .restaurant-container {
     margin: 45px 21px;
     display: flex;
@@ -1151,12 +1248,22 @@ a:hover {
     row-gap: 39px;
     width: 88%;
   }
+}
+@media all and (max-width: 767px) {
+  .restaurant-container h1 {
+    padding-bottom: 0px;
+  }
+}
+@media all and (max-width: 767px) {
   .restaurant .star {
     display: flex;
     justify-content: right;
     margin-top: -37px;
   }
+}
+@media all and (max-width: 767px) {
   .restaurant-card {
+    margin-left: 2vw;
     width: 100%;
     height: 340px;
     float: left;
@@ -1165,6 +1272,8 @@ a:hover {
     border-radius: 30px;
     background: white;
   }
+}
+@media all and (max-width: 767px) {
   .restaurant-info {
     color: #000000;
     line-height: 0em;
@@ -1172,14 +1281,20 @@ a:hover {
     bottom: 19px;
     left: 10px;
   }
+}
+@media all and (max-width: 767px) {
   .restaurant-info h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
   }
+}
+@media all and (max-width: 767px) {
   .restaurant-info p {
     line-height: 4rem;
     font-size: 22px;
   }
+}
+@media all and (max-width: 767px) {
   .restaurant-info34 {
     color: #000000;
     line-height: 0em;
@@ -1187,14 +1302,20 @@ a:hover {
     left: 10px;
     top: 23px;
   }
+}
+@media all and (max-width: 767px) {
   .restaurant-info34 h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
   }
+}
+@media all and (max-width: 767px) {
   .restaurant-info34 p {
     line-height: 4rem;
     font-size: 22px;
   }
+}
+@media all and (max-width: 767px) {
   .restaurant-card img {
     width: 100%;
     max-width: 400px;
@@ -1203,43 +1324,62 @@ a:hover {
        object-fit: cover;
     border-radius: 30px 30px 0px 0px;
   }
+}
+@media all and (max-width: 767px) {
   .fa-heart {
     font-size: 30px;
     position: relative;
     left: 317px;
     top: -61px;
   }
+}
+@media all and (max-width: 767px) {
   .fa-heart:hover {
     background-image: linear-gradient(to bottom, #FF79DA, #9356DC);
   }
-  /* footer section */
+}
+@media all and (max-width: 767px) {
   footer {
     height: 63px;
   }
+}
+@media all and (max-width: 767px) {
   .footer {
-    width: 103%;
+    width: 100%;
     height: 61px;
   }
+}
+@media all and (max-width: 767px) {
   .footer-container {
     flex-direction: column;
     background: #454141;
     display: flex;
     position: relative;
   }
+}
+@media all and (max-width: 767px) {
   .footer-container img {
     width: 40%;
     margin-top: 30px;
     margin-left: 25px;
   }
+}
+@media all and (max-width: 767px) {
   .footer-col {
     margin-left: 25px;
   }
+}
+@media all and (max-width: 767px) {
   .fa-utensils {
     margin-right: 10px;
   }
+}
+@media all and (max-width: 767px) {
   .fa-handshake {
     margin-right: 10px;
   }
+}
+@media all and (max-width: 767px) {
   .footer ul li {
     list-style: none;
     text-align: left;
@@ -1247,15 +1387,21 @@ a:hover {
     margin-left: 25px;
     color: #ffffff;
   }
+}
+@media all and (max-width: 767px) {
   .footer-col h1 {
     text-align: left;
     margin: 25px;
     padding-top: 20px;
   }
+}
+@media all and (max-width: 767px) {
   a {
     text-decoration: none;
     color: white;
   }
+}
+@media all and (max-width: 767px) {
   a:hover {
     color: #99E2D0;
   }

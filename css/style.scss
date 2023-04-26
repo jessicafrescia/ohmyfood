@@ -13,6 +13,14 @@
     font-family: "Arial", sans-serif;
   }
 
+  .desktop-only {
+    display: none;
+
+    @media only screen and (minm-width:750px) {
+      display: block;
+    }
+  }
+
   /* ------------header navigation----------------- */
 
   #logo {
@@ -132,11 +140,7 @@
   
   
   .filters {
-    align-items: flex-start !important;
-    margin: 5px 25px;
-    display: flex;
-    flex-direction: column;
-    gap: 1vw;
+    
       
   }
   
@@ -158,10 +162,9 @@
   
   
   .container {
-    width: 40%;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    
     
   }
 
@@ -208,6 +211,8 @@
   
   .filters h1 {
     font-size: 25px;
+    text-align: center;
+    padding-bottom: 30px;
     
   }
   
@@ -277,8 +282,8 @@
     text-align: center;
     font: 20px Arial, sans-serif;
     position: relative;
-    top: 56px;
-    right: 10px;
+    top: 19px;
+    left: 19px;
   }
 
   .aquasquare1 {
@@ -347,7 +352,7 @@
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      width: 103%;
+      width: 100%;
       background: #F2F2F2;
       border-radius: 0px;
       margin-top: 73px;
@@ -357,13 +362,15 @@
     }
 
     .restaurant-container {
-      margin: 45px 21px;
-      display: flex;
-      flex-wrap: wrap;
-      // height: 635px;
-      flex-direction: column;
-      row-gap: 39px;
       width: 88%;
+      margin-top: 45px;
+      margin-left: 211px;
+    }
+
+    .restaurant-container h1 {
+      text-align: center;
+      padding-bottom: 30px;
+      width: 80%;
     }
   
     .restaurant .star {
@@ -373,13 +380,15 @@
     }
   
     .restaurant-card {
-      width: 100%;
+      width: 34%;
       height: 340px;
-      float: left;
+      
       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
       transition: 0.3s;
       border-radius: 30px;
       background: white;
+      display: inline-block;
+      margin-left: 50px;
     }
   
     .restaurant-info {
@@ -1096,6 +1105,15 @@
     font-family: "Arial", sans-serif;
   }
 
+  .mobile-only {
+    display: none;
+
+    @media only screen and (max-width:750px) {
+      display: block;
+    }
+  }
+
+
   /* ------------header navigation----------------- */
 
   #logo {
@@ -1291,6 +1309,7 @@
   
   .filters h1 {
     font-size: 25px;
+    padding-bottom: 1px;
     
   }
   
@@ -1361,7 +1380,7 @@
     font: 20px Arial, sans-serif;
     position: relative;
     top: 56px;
-    right: 10px;
+    left: -14px;
   }
 
   .aquasquare1 {
@@ -1430,7 +1449,7 @@
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      width: 103%;
+      width: 100%;
       background: #F2F2F2;
       border-radius: 0px;
       margin-top: 73px;
@@ -1447,6 +1466,11 @@
       flex-direction: column;
       row-gap: 39px;
       width: 88%;
+      
+    }
+
+    .restaurant-container h1 {
+      padding-bottom: 0px;
     }
   
     .restaurant .star {
@@ -1456,6 +1480,7 @@
     }
   
     .restaurant-card {
+      margin-left: 2vw;
       width: 100%;
       height: 340px;
       float: left;
@@ -1529,7 +1554,7 @@
    }
 
    .footer {
-    width: 103%;
+    width: 100%;
     height: 61px;
    }
   
