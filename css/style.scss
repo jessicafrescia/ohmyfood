@@ -359,10 +359,11 @@
       float: none;
       margin-left: 0px;
       padding-bottom: 30px;
+      align-items: center;
     }
 
     .restaurant-container {
-      width: 88%;
+      width: 70%;
       margin-top: 45px;
       margin-left: 211px;
     }
@@ -464,6 +465,7 @@
       background: #454141;
       display: flex;
       position: relative;
+      align-items: center;
       
     }
 
@@ -496,7 +498,8 @@
     text-align: left;
     line-height: 1.8rem;
     margin-left: 25px;
-    color: #ffffff
+    color: #ffffff;
+    text-align: center;
    
   }
   
@@ -780,7 +783,7 @@
     font-weight: 900;
     font-size: 30px;
     position: relative;
-    left: 45px;
+    left: 165px;
     top: 23px;
   }
 
@@ -790,7 +793,7 @@
     font-weight: 900;
     font-size: 30px;
     position: relative;
-    left: 45px;
+    left: 165px;
     top: 23px;
   }
 
@@ -798,7 +801,7 @@
     font-weight: 900;
     font-size: 30px;
     position: relative;
-    left: 45px;
+    left: 165px;
     top: 23px;
   }
 
@@ -899,7 +902,7 @@
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      width: 103%;
+      width: 100%;
       background: #F2F2F2;
       border-radius: 0px;
       margin-top: 73px;
@@ -916,6 +919,7 @@
       flex-direction: column;
       row-gap: 39px;
       width: 88%;
+      align-items: center;
     }
   
     .restaurant .star {
@@ -925,7 +929,7 @@
     }
   
     .restaurant-card {
-      width: 100%;
+      width: 94%;
       height: 340px;
       float: left;
       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -933,6 +937,16 @@
       border-radius: 30px;
       background: white;
     }
+
+    .restaurant-card .rectangle {
+
+    }
+
+    .restaurant-card .rectangle img {
+
+    }
+
+    
   
     .restaurant-info {
       color: #000000;
@@ -998,7 +1012,7 @@
    }
 
    .footer {
-    width: 103%;
+    width: 100%;
     height: 61px;
    }
   
@@ -1563,6 +1577,7 @@
       background: #454141;
       display: flex;
       position: relative;
+      align-items: start;
       
     }
 
@@ -1595,7 +1610,8 @@
     text-align: left;
     line-height: 1.8rem;
     margin-left: 25px;
-    color: #ffffff
+    color: #ffffff;
+    text-align: left;
    
   }
   

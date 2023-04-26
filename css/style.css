@@ -320,10 +320,11 @@ p {
   float: none;
   margin-left: 0px;
   padding-bottom: 30px;
+  align-items: center;
 }
 
 .restaurant-container {
-  width: 88%;
+  width: 70%;
   margin-top: 45px;
   margin-left: 211px;
 }
@@ -422,6 +423,7 @@ footer {
   background: #454141;
   display: flex;
   position: relative;
+  align-items: center;
 }
 
 .footer-container img {
@@ -448,6 +450,7 @@ footer {
   line-height: 1.8rem;
   margin-left: 25px;
   color: #ffffff;
+  text-align: center;
 }
 
 .footer-col h1 {
@@ -641,21 +644,21 @@ a:hover {
     font-weight: 900;
     font-size: 30px;
     position: relative;
-    left: 45px;
+    left: 165px;
     top: 23px;
   }
   .fa-list {
     font-weight: 900;
     font-size: 30px;
     position: relative;
-    left: 45px;
+    left: 165px;
     top: 23px;
   }
   .fa-store {
     font-weight: 900;
     font-size: 30px;
     position: relative;
-    left: 45px;
+    left: 165px;
     top: 23px;
   }
   .filtercopylist {
@@ -740,7 +743,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 103%;
+    width: 100%;
     background: #F2F2F2;
     border-radius: 0px;
     margin-top: 73px;
@@ -755,6 +758,7 @@ a:hover {
     flex-direction: column;
     row-gap: 39px;
     width: 88%;
+    align-items: center;
   }
   .restaurant .star {
     display: flex;
@@ -762,7 +766,7 @@ a:hover {
     margin-top: -37px;
   }
   .restaurant-card {
-    width: 100%;
+    width: 94%;
     height: 340px;
     float: left;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -822,7 +826,7 @@ a:hover {
     height: 63px;
   }
   .footer {
-    width: 103%;
+    width: 100%;
     height: 61px;
   }
   .footer-container {
@@ -1355,6 +1359,7 @@ a:hover {
     background: #454141;
     display: flex;
     position: relative;
+    align-items: start;
   }
 }
 @media all and (max-width: 767px) {
@@ -1386,6 +1391,7 @@ a:hover {
     line-height: 1.8rem;
     margin-left: 25px;
     color: #ffffff;
+    text-align: left;
   }
 }
 @media all and (max-width: 767px) {
