@@ -903,7 +903,8 @@ a:hover {
     display: none;
   }
   /* ------------header navigation----------------- */
-  /* purple box section */
+  /* search section */
+  /* text box section */
   /* fliter section */
   /* info section */
   /* restaurant section */
@@ -934,13 +935,65 @@ a:hover {
   }
 }
 @media all and (max-width: 767px) {
-  .fa-arrow-left {
-    font-weight: 900;
-    font-size: 30px;
+  .search-section {
+    justify-content: center;
+    display: flex;
+    padding-bottom: 30px;
+    background-color: #e3e3e3;
+    height: 50px;
     position: relative;
-    color: black;
-    right: 303px;
-    top: 10px;
+    top: -30px;
+    opacity: 50%;
+  }
+}
+@media all and (max-width: 767px) {
+  #iconsearch {
+    position: relative;
+    top: 3px;
+    left: -3px;
+  }
+}
+@media all and (max-width: 767px) {
+  form {
+    top: 26px;
+    position: relative;
+  }
+}
+@media all and (max-width: 767px) {
+  input {
+    font-size: 20px;
+    font-family: "Arial Bold", sans-serif;
+    box-sizing: border-box;
+    transition: 0.5s;
+  }
+}
+@media all and (max-width: 767px) {
+  input[type=text] {
+    border: none;
+  }
+}
+@media all and (max-width: 767px) {
+  .text-box {
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: #f8f8f8;
+    position: relative;
+    top: -30px;
+  }
+}
+@media all and (max-width: 767px) {
+  .text-box h1 {
+    font-size: 30px;
+    text-align: center;
+    line-height: 4em;
+  }
+}
+@media all and (max-width: 767px) {
+  .text-box p {
+    font-size: 21px;
+    color: #656161;
+    line-height: 1.3em;
+    text-align: center;
   }
 }
 @media all and (max-width: 767px) {
@@ -949,7 +1002,6 @@ a:hover {
     text-align: center;
     position: relative;
     bottom: 32px;
-    background: #F2F2F2;
   }
 }
 @media all and (max-width: 767px) {
