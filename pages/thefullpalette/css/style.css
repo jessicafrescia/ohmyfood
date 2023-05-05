@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Shrikhand&display=swap");
 /*--------------------------------------MOBILE VERSION-------------------------------------*/
 @media all and (max-width: 767px) {
   main, header {
@@ -13,11 +11,10 @@
   /* ------------header navigation----------------- */
   #logo {
     padding: 19px;
-    display: flex;
     justify-content: center;
   }
   #logo img {
-    width: 70%;
+    width: 30%;
   }
   .nav-section {
     width: 100%;
@@ -38,7 +35,7 @@
     position: relative;
   }
   .topimagecontainer img {
-    width: 100%;
+    width: 42%;
   }
   /* info section */
   .info {
@@ -67,7 +64,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100%;
+    width: 45%;
     background: #F2F2F2;
     margin-left: 0px;
     border-radius: 70px 70px 0px 0px;
@@ -84,9 +81,9 @@
   }
   .restaurant-container h3 {
     font-family: "Shrikhand", Helvetica, sans-serif;
-    font-size: 54px;
+    font-size: 14px;
     margin-top: 44px;
-    margin-left: 40px;
+    margin-left: 12px;
   }
   .restaurant .star {
     display: flex;
@@ -161,8 +158,8 @@
   .fa-heart {
     font-size: 30px;
     position: relative;
-    left: 347px;
-    bottom: 80px;
+    left: 227px;
+    bottom: 73px;
     width: 0%;
   }
   .fa-heart:hover {
