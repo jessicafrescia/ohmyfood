@@ -412,10 +412,13 @@ p {
   color: transparent;
   background-image: linear-gradient(red, blue);
   -webkit-background-clip: text;
+  opacity: 0;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
 }
 
 .fa-solid:hover {
-  opacity: 0;
+  opacity: 1;
 }
 
 /* footer section */
