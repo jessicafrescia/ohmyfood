@@ -446,10 +446,10 @@
     
     }
 
-    .fa-regular:hover{
-      background-clip: border-box ;
-      background-image: linear-gradient(to bottom, #FF79DA, #9356DC);
-    }
+    // .fa-regular:hover{
+    //   background-clip: border-box ;
+    //   background-image: linear-gradient(to bottom, #FF79DA, #9356DC);
+    // }
 
     .fa-solid {
       
@@ -457,12 +457,13 @@
       position: relative;
       left: 285px;
       top: -61px;
-     display: none;
+      color: transparent;
+      background-image: linear-gradient(red, blue);
+      -webkit-background-clip: text;
       }
   
-      .fa-solid:hover{
-        background-image: linear-gradient(to bottom, #FF79DA, #9356DC);
-        
+      .fa-solid:hover {
+        opacity: 0;
       }
     
    /* footer section */
