@@ -19,36 +19,11 @@ main, header {
 }
 
 /* ------------loader section----------------- */
-.loader-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.loader {
-  border: 10px solid #9356DC;
-  border-top: 10px solid #3498db;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  animation: spin 2s linear infinite; /* Create a spinning animation */
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 /* ------------header navigation----------------- */
 #logo {
   padding: 30px;
   display: flex;
   justify-content: center;
-  box-shadow: 0 8px 6px -6px gray;
 }
 
 #logo img {
@@ -58,24 +33,26 @@ main, header {
 .nav-section {
   width: 100%;
   padding-bottom: 30px;
+  box-shadow: 0 5px 10px lightgrey;
 }
 
 /* search section */
 .search-section {
   justify-content: center;
   display: flex;
-  padding-bottom: 30px;
-  background-color: #e3e3e3;
+  padding-bottom: 65px;
+  background-color: #EAEAEA;
   height: 50px;
   position: relative;
-  top: -30px;
-  opacity: 50%;
+  top: 6px;
 }
 
 #iconsearch {
   position: relative;
-  top: 3px;
+  top: 0px;
   left: -3px;
+  font-size: 20px;
+  color: gray;
 }
 
 form {
@@ -86,12 +63,11 @@ form {
 input {
   font-size: 20px;
   font-family: "Arial Bold", sans-serif;
-  box-sizing: border-box;
-  transition: 0.5s;
 }
 
 input[type=text] {
   border: none;
+  background-color: #EAEAEA;
 }
 
 /* text box section */
@@ -376,6 +352,27 @@ p {
   display: inline-block;
   margin-left: 50px;
 }
+.restaurant-card .fa-regular {
+  font-size: 30px;
+  position: relative;
+  left: 317px;
+  top: -61px;
+}
+.restaurant-card .fa-solid {
+  font-size: 30px;
+  position: relative;
+  left: 285px;
+  top: -61px;
+  color: transparent;
+  background-image: linear-gradient(red, blue);
+  -webkit-background-clip: text;
+  opacity: 0;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+.restaurant-card .fa-solid:hover {
+  opacity: 1;
+}
 
 .restaurant-info {
   color: #000000;
@@ -420,30 +417,6 @@ p {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 30px 30px 0px 0px;
-}
-
-.fa-regular {
-  font-size: 30px;
-  position: relative;
-  left: 317px;
-  top: -61px;
-}
-
-.fa-solid {
-  font-size: 30px;
-  position: relative;
-  left: 285px;
-  top: -61px;
-  color: transparent;
-  background-image: linear-gradient(red, blue);
-  -webkit-background-clip: text;
-  opacity: 0;
-  transition: all 200ms ease-in-out;
-  cursor: pointer;
-}
-
-.fa-solid:hover {
-  opacity: 1;
 }
 
 /* footer section */
@@ -976,38 +949,39 @@ a:hover {
   .search-section {
     justify-content: center;
     display: flex;
-    padding-bottom: 30px;
-    background-color: #e3e3e3;
-    height: 50px;
+    padding-bottom: 65px;
+    background-color: #EAEAEA;
+    height: 10px;
     position: relative;
-    top: -30px;
-    opacity: 50%;
+    top: -26px;
   }
 }
 @media all and (max-width: 767px) {
   #iconsearch {
     position: relative;
-    top: 3px;
+    top: 0px;
     left: -3px;
+    font-size: 20px;
+    color: gray;
   }
 }
 @media all and (max-width: 767px) {
   form {
     top: 26px;
     position: relative;
+    left: 20px;
   }
 }
 @media all and (max-width: 767px) {
   input {
     font-size: 20px;
     font-family: "Arial Bold", sans-serif;
-    box-sizing: border-box;
-    transition: 0.5s;
   }
 }
 @media all and (max-width: 767px) {
   input[type=text] {
     border: none;
+    background-color: #EAEAEA;
   }
 }
 @media all and (max-width: 767px) {
