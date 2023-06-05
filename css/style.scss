@@ -201,6 +201,13 @@
     top: 42px;
     // box-shadow: 0 4px 15px 0 #656161;
   }
+
+  .btn-hover.color-7:hover{
+    box-shadow: 0 5px 10px #9356DC;
+
+  }
+
+ 
     
 
   /* fliter section */
@@ -493,6 +500,13 @@
           .fa-solid:hover {
             opacity: 1;
           }
+    }
+
+    .restaurant-card:hover{
+      box-shadow: 0 5px 10px #9356DC;
+      transform: scale(1.02);
+      transition: opacity 0.3s ease-in-out;
+  
     }
   
     .restaurant-info {
@@ -830,6 +844,10 @@
     background-color: #dcceed;
   }
 
+  .fa-mobile-screen:hover {
+    background-color: #dcceed;
+
+  }
   
   .filterbuttonslist {
     width: 98%;
@@ -839,7 +857,7 @@
     box-shadow: 0 8px 6px -6px gray;
   }
 
-  .filterbuttonslist:hover {
+  .fa-mobile-screen:hover {
     background-color: #dcceed
   }
   

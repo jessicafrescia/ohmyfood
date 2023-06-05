@@ -153,6 +153,10 @@ input[type=text] {
   top: 42px;
 }
 
+.btn-hover.color-7:hover {
+  box-shadow: 0 5px 10px #9356DC;
+}
+
 /* fliter section */
 p {
   font-family: "Raleway", sans-serif;
@@ -411,6 +415,12 @@ p {
   opacity: 1;
 }
 
+.restaurant-card:hover {
+  box-shadow: 0 5px 10px #9356DC;
+  transform: scale(1.02);
+  transition: opacity 0.3s ease-in-out;
+}
+
 .restaurant-info {
   color: #000000;
   line-height: 0em;
@@ -654,6 +664,9 @@ a:hover {
   .filterbuttonsphone:hover {
     background-color: #dcceed;
   }
+  .fa-mobile-screen:hover {
+    background-color: #dcceed;
+  }
   .filterbuttonslist {
     width: 98%;
     height: 80px;
@@ -661,7 +674,7 @@ a:hover {
     border-radius: 25px;
     box-shadow: 0 8px 6px -6px gray;
   }
-  .filterbuttonslist:hover {
+  .fa-mobile-screen:hover {
     background-color: #dcceed;
   }
   .filterbuttonsstore {
