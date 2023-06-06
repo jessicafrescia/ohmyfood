@@ -193,9 +193,8 @@ p {
 .filterbuttonsphone:hover {
   background-color: #dcceed;
 }
-
-.fa-mobile-screen:hover {
-  background-color: #dcceed;
+.filterbuttonsphone:hover i {
+  color: #9356DC;
 }
 
 .filterbuttonslist {
@@ -209,6 +208,9 @@ p {
 .filterbuttonslist:hover {
   background-color: #dcceed;
 }
+.filterbuttonslist:hover i {
+  color: #9356DC;
+}
 
 .filterbuttonsstore {
   width: 98%;
@@ -220,6 +222,9 @@ p {
 
 .filterbuttonsstore:hover {
   background-color: #dcceed;
+}
+.filterbuttonsstore:hover i {
+  color: #9356DC;
 }
 
 .filters h1 {
@@ -673,9 +678,6 @@ a:hover {
     background: #f8f8f8;
     border-radius: 25px;
     box-shadow: 0 8px 6px -6px gray;
-  }
-  .fa-mobile-screen:hover {
-    background-color: #dcceed;
   }
   .filterbuttonsstore {
     width: 98%;

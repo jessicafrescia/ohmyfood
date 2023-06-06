@@ -242,12 +242,7 @@
   .container {
     width: 100%;
     display: flex;
-    
-    
   }
-
-  
-    
   
   .filterbuttonsphone {
     width: 98%;
@@ -255,20 +250,17 @@
     background: #f8f8f8;
     border-radius: 25px;
     box-shadow: 0 8px 6px -6px gray;
-
-    
   }
 
   .filterbuttonsphone:hover {
     background-color: #dcceed;
-  }
-
-  .fa-mobile-screen:hover {
-    background-color: #dcceed;
+    i {
+      color: #9356DC;
+    }
+   
   }
 
   
-
   
   .filterbuttonslist {
     width: 98%;
@@ -278,9 +270,17 @@
     box-shadow: 0 8px 6px -6px gray;
   }
 
+  
   .filterbuttonslist:hover {
-    background-color: #dcceed
+    background-color: #dcceed;
+
+    i {
+      color: #9356DC;
+    }
+   
   }
+
+  
   
   .filterbuttonsstore {
     width: 98%;
@@ -291,7 +291,10 @@
   }
 
   .filterbuttonsstore:hover {
-    background-color: #dcceed
+    background-color: #dcceed;
+    i {
+      color: #9356DC;
+    }
   }
   
   
@@ -315,12 +318,14 @@
     margin-top: 46px;
   }
 
-  .fa-mobile-screen{
+  .fa-mobile-screen {
     font-weight: 900;
     font-size: 30px;
     position: relative;
     left: 45px;
     top: 23px;
+
+    
   }
 
   
@@ -857,9 +862,7 @@
     box-shadow: 0 8px 6px -6px gray;
   }
 
-  .fa-mobile-screen:hover {
-    background-color: #dcceed
-  }
+ 
   
   .filterbuttonsstore {
     width: 98%;
