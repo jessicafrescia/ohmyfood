@@ -1,14 +1,27 @@
-/*--------------------------------------MOBILE VERSION ----> REPLACE BY DEFAULT VERSION-------------------------------------*/
+/*--------------------------------------DESKTOP VERSION-------------------------------------*/
 
+@media all and (min-width: 767px) {
+  main, header {
+    margin: 0px auto;
+  }
 
-.topimagecontainer img {
-  width: 100%;
-  z-index: 1;
-  position: relative;
+  .topimagecontainer img {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+  }
+
 }
 
+/*--------------------------------------DESKTOP VERSION ENDS-------------------------------------*/
 
-/*--------------------------------------MOBILE VERSION-------------------------------------*/
+
+
+
+
+
+
+/*--------------------------------------MOBILE VERSION STARTS-------------------------------------*/
 
 @media all and (max-width: 767px) {
   main,header {
@@ -346,13 +359,5 @@
 }
 
 
-/*--------------------------------------DESKTOP VERSION-------------------------------------*/
 
-@media all and (min-width: 767px) {
-  main, header {
-    margin: 0px auto;
-  }
-}
-
-/*--------------------------------------All your rules for desktops-------------------------------------*/
 
