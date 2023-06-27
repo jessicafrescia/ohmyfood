@@ -1,4 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+/*--------------------------------------MOBILE VERSION ----> REPLACE BY DEFAULT VERSION-------------------------------------*/
+.topimagecontainer img {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+
 /*--------------------------------------MOBILE VERSION-------------------------------------*/
 @media all and (max-width: 767px) {
   main, header {
@@ -261,4 +267,11 @@
   a:hover {
     color: #99E2D0;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+/*--------------------------------------DESKTOP VERSION-------------------------------------*/
+@media all and (min-width: 767px) {
+  main, header {
+    margin: 0px auto;
+  }
+}
+/*--------------------------------------All your rules for desktops-------------------------------------*//*# sourceMappingURL=style.css.map */

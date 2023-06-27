@@ -1069,6 +1069,14 @@ a:hover {
   }
 }
 @media all and (max-width: 767px) {
+  .btn-hover:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 0 3px 10px #ff79da;
+    transition: 0.5s;
+  }
+}
+@media all and (max-width: 767px) {
   .btn-hover {
     width: 300px;
     font-size: 21px;

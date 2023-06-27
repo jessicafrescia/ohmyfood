@@ -1346,6 +1346,13 @@
     bottom: 32px;
   }
 
+  .btn-hover:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 0 3px 10px #ff79da;
+    transition: 0.5s;
+  }
+
   .btn-hover {
     width: 300px;
     font-size: 21px;
