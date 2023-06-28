@@ -1,4 +1,15 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+/*--------------------------------------DESKTOP VERSION-------------------------------------*/
+@media all and (min-width: 767px) {
+  main, header {
+    margin: 0px auto;
+  }
+  .topimagecontainer img {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+  }
+}
+/*--------------------------------------DESKTOP VERSION ENDS-------------------------------------*/
 /*--------------------------------------MOBILE VERSION-------------------------------------*/
 @media all and (max-width: 767px) {
   main, header {
