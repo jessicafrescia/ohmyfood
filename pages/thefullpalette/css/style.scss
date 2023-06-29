@@ -98,6 +98,31 @@
       flex-direction: column;
       row-gap: 39px;
       width: 88%;
+
+      .fa-regular {
+        font-size: 30px;
+        position: relative;
+        left: 1525px;
+        top: -88px;
+        }
+    
+
+        .fa-solid {
+          font-size: 30px;
+          position: relative;
+          left: 1525px;
+          top: -158px;
+          color: transparent;
+          background-image: linear-gradient(red, blue);
+          -webkit-background-clip: text;
+          opacity: 0;
+          transition: all 200ms ease-in-out;
+          cursor: pointer;
+          }
+      
+          .fa-solid:hover {
+            opacity: 1;
+          }
     }
 
     .restaurant-container h3 {
@@ -123,8 +148,14 @@
       margin-left: 15px;
       margin-right: 15px;
       position: relative;
-    bottom: 100px;
+      bottom: 100px;
+
+      
+
+      
     }
+
+    
 
     .restaurant-container h2 {
       font-family: "Roboto", Helvetica, sans-serif;
@@ -137,7 +168,7 @@
 
     .restaurant-container hr {
       border: 2px solid #99E2D0;
-      width: 17%;
+      width: 8%;
       position: relative;
       bottom: 83px;
       left: 38px;
@@ -169,6 +200,22 @@
       color: #000000;
 
     }
+
+    .menu-item_check {
+      background-color: #99E2d0;
+      margin-left: 1579px;
+    }
+
+    .menu-item {
+      border: 1px solid black;
+    }
+
+   
+
+  
+
+   
+
   
     .restaurant-info p {
       line-height: 4rem;
@@ -447,7 +494,7 @@
     }
   
     .restaurant-card {
-      width: 107%;
+      width: 100%;
       height: 95px;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
       transition: 0.3s;
@@ -470,7 +517,7 @@
 
     .restaurant-container hr {
       border: 2px solid #99E2D0;
-      width: 17%;
+      width: 10%;
       position: relative;
       bottom: 83px;
       left: 38px;
@@ -497,7 +544,7 @@
     .cents {
       position: relative;
       font-size: 22px;
-      left: 330px;
+      left: 317px;
       bottom: 2px;
       color: #000000;
 
